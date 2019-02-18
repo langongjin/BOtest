@@ -15,6 +15,7 @@ env/
 develop-eggs/
 dist/
 downloads/
+.idea/
 eggs/
 .eggs/
 lib/
@@ -72,3 +73,5 @@ target/
 *.sdf
 *.urdf
 *.yaml
+value.txt
+ctime.txt

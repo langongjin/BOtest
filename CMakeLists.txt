@@ -29,13 +29,11 @@ include_directories(
         limbo/
         external/)
 
-#message("Hello ${NLOpt_INCLUDE_DIRS}")
 set(SOURCE_FILES main.cpp)
 
 add_executable(BOtest ${SOURCE_FILES})
 target_compile_definitions(BOtest PUBLIC USE_NLOPT=1)
 target_link_libraries(
         BOtest
-#        ${TBB_LIBRARIES}
         ${Boost_LIBRARIES}
         ${NLOpt_LIBRARIES})
