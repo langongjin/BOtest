@@ -61,7 +61,7 @@ docs/_build/
 target/
 
 # PyCharm project files
-.idea
+.idea/*
 
 # Visual Studio Code
 /.vscode/
